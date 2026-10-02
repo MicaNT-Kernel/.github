@@ -57,7 +57,7 @@
 
 ### 2. Modern ISO C++23 Core
 - Strongly-typed handles, RAII kernel object management, compile-time Bitmask enums, concepts, and zero-overhead abstractions.
-- 45+ comprehensive test suites passing across memory management, scheduling, APC/DPC delivery, WDDM thunking, and 3D rasterization.
+- 46 comprehensive test suites passing across memory management, scheduling, APC/DPC delivery, WDDM thunking, Direct3D 11/12, and Vulkan 1.3 rasterization.
 
 ### 3. PrismX & Prism3D Graphics Executive
 - Named in homage to Dave Cutler’s 1988 PRISM RISC project.
@@ -65,7 +65,12 @@
 - **Prism3D**: Shading pipeline, pipeline state objects, sub-pixel Gouraud RGB color interpolation, floating-point Z-buffer depth testing, and software reference rasterizer.
 - Built using clean-room integration referencing Microsoft's MIT-licensed open-source `DirectX-Headers` and `DirectXTK`.
 
-### 4. Zero Telemetry & Extreme Lightweight Footprint
+### 4. PrismVK & Khronos Vulkan 1.3 ICD Subsystem
+- Standard Khronos Vulkan ICD Loader (`vulkan-1.dll`) with automatic registry driver discovery under `\Registry\Machine\SOFTWARE\Khronos\Vulkan\Drivers`.
+- Sovereign **PrismVK** driver exposing a high-performance Discrete GPU (1.3.0 compliance, 8192 MB dedicated VRAM, 16384 MB shared GTT, 16 graphics/compute queues).
+- Native Win32 surface presentation (`VK_KHR_win32_surface` and `VK_KHR_swapchain`).
+
+### 5. Zero Telemetry & Extreme Lightweight Footprint
 - Cold-boots in milliseconds into a native command console or high-resolution UEFI GOP graphical desktop.
 - Requires less than 32 megabytes of RAM.
 - Absolutely zero outbound telemetry, profiling, or cloud tethering.
