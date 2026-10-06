@@ -77,6 +77,17 @@
 
 ---
 
+## 📦 Sovereign Ecosystem Repositories
+
+| Repository | Description | Language / Stack |
+| :--- | :--- | :--- |
+| **[`MicaNT`](https://github.com/MicaNT-Kernel/MicaNT)** | Clean-room modern ISO C++23 NT-compatible operating system executive. Zero telemetry, sub-32MB footprint. | ISO C++23, Assembly |
+| **[`PrismX`](https://github.com/MicaNT-Kernel/PrismX)** | Sovereign clean-room DirectX/Direct3D/DXGI/Vulkan graphics presentation & software rasterization engine. | ISO C++23 |
+| **[`winget`](https://github.com/MicaNT-Kernel/winget)** | Sovereign clean-room Windows Package Manager engine & CLI. Freestanding NIST SHA-256, schema v1.6.0 compliant, zero telemetry. | ISO C++23 |
+| **[`sentinel`](https://github.com/MicaNT-Kernel/sentinel)** | AI-Powered Clean-Room & Provenance Compliance Sentinel and GitHub Action. Audits decompilation artifacts and leaked markers in CI/CD. | Node.js, Google Gemini |
+
+---
+
 ## 🌐 Official Showcase & Links
 
 - **Showcase Website:** [https://micant.barrersoftware.com](https://micant.barrersoftware.com)
