@@ -1,7 +1,7 @@
 # MicaNT: Sovereign Operating System Executive
 
 <p align="center">
-  <a href="https://micant.barrersoftware.com">
+  <a href="https://micant.org">
     <img src="https://img.shields.io/badge/Official_Website-micant.barrersoftware.com-4CAF50?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Website" />
   </a>
   <a href="https://github.com/MicaNT-Kernel/MicaNT">
