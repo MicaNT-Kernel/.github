@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://micant.org">
-    <img src="https://img.shields.io/badge/Official_Website-micant.barrersoftware.com-4CAF50?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Website" />
+    <img src="https://img.shields.io/badge/Official_Website-micant.org-4CAF50?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Website" />
   </a>
   <a href="https://github.com/MicaNT-Kernel/MicaNT">
     <img src="https://img.shields.io/badge/Core_Repository-MicaNT--Kernel%2FMicaNT-0078D7?style=for-the-badge&logo=github&logoColor=white" alt="MicaNT Repo" />
